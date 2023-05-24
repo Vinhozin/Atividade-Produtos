@@ -1,0 +1,44 @@
+h1 {
+    font-family: "Arial", sans-serif;
+  }
+  h2 {
+    font-family: Arial, sans-serif;
+  }
+  p {
+    font-size: 17px;
+    color: #000000;
+    line-height: 1.9;
+  }
+  p {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+  }
+  h4 {
+    font-size: 22px;
+  }
+  body {
+  background: rgb(126, 197, 221);
+  }
+    
+  .grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr); 
+  gap: 15px; 
+  }
+  .coluna {
+  border: 5px solid rgb(255, 255, 255);
+  padding: 15px; 
+  }
+  .container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 65vh; 
+  }
+  .elemento-centralizado {
+  margin: 0 auto; 
+  }
+  .titulo-centralizado {
+  text-align: center; 
+  background-color: rgb(255, 255, 255); 
+  }
+  
